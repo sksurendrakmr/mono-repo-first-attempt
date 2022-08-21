@@ -23,3 +23,13 @@ It is just a package that is used to manage the workspace.
 Lerna -> Help us manage mono repo.
 
 Hoisting is a method for yarn to move all the dependencies of all of the packages we have into a root node_modules folder.
+
+===
+Create react mono repo
+=====
+
+inside package, create react folder.
+
+1. yarn init --y
+2. yarn add --dev react @types/react typescript
+3. Add tsconfig.json
