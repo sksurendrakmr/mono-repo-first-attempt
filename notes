@@ -33,3 +33,8 @@ inside package, create react folder.
 1. yarn init --y
 2. yarn add --dev react @types/react typescript
 3. Add tsconfig.json
+
+//Add and configure bundler
+
+4. yarn add --dev rollup rollup-plugin-typescript2 // add or configure bundler
+5. At root of react package, add rollup.config.js
