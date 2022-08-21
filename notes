@@ -19,3 +19,7 @@ It is just a package that is used to manage the workspace.
 
 "npmClient": "yarn" ==> Inform lerna that we are using yarn as workspace
 "stream": true ==> show logs
+
+Lerna -> Help us manage mono repo.
+
+Hoisting is a method for yarn to move all the dependencies of all of the packages we have into a root node_modules folder.
