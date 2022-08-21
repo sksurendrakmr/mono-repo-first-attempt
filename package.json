@@ -11,7 +11,8 @@
   },
   "workspaces": {
     "packages":[
-      "packages/*"
+      "packages/*",
+      "playground/*"
     ],
     "nohoist": [
       "packages which should not hosited in root node modules"
