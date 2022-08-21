@@ -1,0 +1,14 @@
+1. yarn init --y
+
+2. # we need learna package
+
+   yarn add --dev lerna
+
+   \*\* Lerna is going to give us some useful commands to help us
+   publish our packages to NPM easily, commits and pushing and etc.
+
+   We use lerna in combination with yarn workspaces
+
+3. To initialize new lerna project
+
+   yarn lerna init
