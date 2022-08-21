@@ -9,8 +9,16 @@
   "devDependencies": {
     "lerna": "^5.4.3"
   },
-  "workspaces": [
-    "packages/*"
-  ],
-  "private":true
+  "workspaces": {
+    "packages":[
+      "packages/*"
+    ],
+    "nohoist": [
+      "packages which should not hosited in root node modules"
+    ]
+  },
+  "private":true,
+  "scripts": {
+    "build":"yarn lerna run build"
+  }
 }
